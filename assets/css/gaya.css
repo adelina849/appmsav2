@@ -1,0 +1,81 @@
+.quick-link {
+	margin: 15px 0px 0px 0px;
+}
+
+.example-modal .modal {
+	position: relative;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	display: block;
+	z-index: 1;
+}
+
+.example-modal .modal {
+	background: transparent !important;
+}
+
+.loading {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 10000;
+}
+
+.overlay {
+	height: 30px;
+	margin: auto;
+	width: 180px;
+	background: #ff005e;
+	text-align: center;
+	line-height: 29px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#daftar-autocomplete {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#daftar-autocomplete li {
+	padding: 5px 10px 5px 10px;
+	background: #FAFAFA;
+	border-bottom: #ddd 1px solid;
+}
+
+#daftar-autocomplete li:hover,
+#daftar-autocomplete li.autocomplete_active {
+	background: #2a84ae;
+	color: #fff;
+	cursor: pointer;
+}
+
+#hasil_pencarian {
+	padding: 0px;
+	display: none;
+	position: absolute;
+	max-height: 350px;
+	overflow: auto;
+	border: 1px solid #ddd;
+	z-index: 1000;
+}
+
+.TotalBayar {
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.TotalBayar h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+button#CetakStruk,
+button#Simpann {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
